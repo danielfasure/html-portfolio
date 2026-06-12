@@ -1,4 +1,19 @@
-html{
-background-color: black;
 
+.header{
+    background-color: #B5BAFF;
+}
+body{background-color: #B5BAFF;}
+h1{
+    text-align: center; 
+    color:#AEE2FF ;
+}
+h2{
+    text-align: left;
+    color: #AEE2FF;
+}
+footer{
+    text-align:center;
+    color: #D9F9DF;
+    margin: 20px;
+    padding: 20px;
 }
