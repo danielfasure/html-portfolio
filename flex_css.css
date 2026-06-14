@@ -1,0 +1,103 @@
+.make_header{
+
+    display: flex;
+    color: #272343;
+    border-style: solid;
+    background-color: #272343;
+
+}
+.header{
+    padding: 10px;
+    display: flex;
+
+
+    background-color: #D9F9DF
+    ;
+     flex-basis: 100px;
+     flex-direction: column;
+}
+
+
+h1{
+    text-align: center; 
+    color: #272343; ;
+}
+h2{
+   text-align: center;
+    color: #272343;
+     
+    position: relative;
+  
+    }
+h3{
+   text-align: center;
+   font-weight: lighter;
+    color: #272343;
+     
+    position: relative;
+  
+    }
+
+li{
+color: #272343;
+}
+footer{
+    position: relative;
+  
+    text-align:right;
+    color: #D9F9DF;
+
+  
+
+}
+p{
+    color: #272343;
+   font-weight: lighter;
+  
+    position: relative;
+    
+    text-align: center;
+}
+.indexholder{
+   
+    text-align: center;
+    font-weight: 200;
+    font-size: 20pt;
+}
+.return{
+    position: relative;
+  
+    display: block;
+}
+img{
+   text-align: center;
+     display: block;
+    height: 50pt;
+    width: 50pt;
+     margin: auto;
+}
+
+.link{
+
+  
+    text-align: center;
+
+}
+.img_project{
+    display: block;
+    margin :auto;
+ 
+      text-align: center;
+       height: 50pt;
+    width: 50pt;
+}
+.projects>h2{
+text-align: center;
+font-weight: bold;
+font-size: 20pt;
+}
+form{
+text-align: center;    
+display: block;
+
+}

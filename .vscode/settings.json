@@ -1,3 +1,5 @@
 {
-    "liveServer.settings.port": 5502
+    "liveServer.settings.port": 5502,
+    "livePreview.defaultPreviewPath": "/11.0 Bootstrap Intro/solution.html",
+    "liveServer.settings.NoBrowser": true
 }
