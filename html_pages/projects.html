@@ -6,6 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f8fa3e29a3.js" crossorigin="anonymous"></script>
+    <style> 
+      .nav-link {
+   position:relative;
+    text-decoration: none;
+}
+
+.nav-link::after {
+  content: "";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    left: 0;
+    bottom: -3px;
+    background: black;
+    transition: 0.3s ease;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+}
+body{
+
+  color: gray;
+}
+header{
+ 
+  
+  background-color: transparent;
+
+  
+
+}
+    </style>
 </head>
 
 <body>
@@ -47,12 +81,13 @@
             </ul>
 
             <a href="https://www.linkedin.com">
-                <img src="../images/linkin.png" height="30">
+                <i class="fa-brands fa-linkedin-in"></i>
             </a>
 
         </div>
     </div>
 </nav>
+
 
 <!-- MAIN CONTENT -->
 <div class="container my-4">

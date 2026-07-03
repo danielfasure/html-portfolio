@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/f8fa3e29a3.js" crossorigin="anonymous"></script>
       
     <style>.feature-icon {
       width: 4rem;
@@ -15,6 +16,25 @@
       color: aqua;
       font-weight: bold;
     }
+    .nav-link {
+    position: relative;
+    text-decoration: none;
+}
+
+.nav-link::after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    left: 0;
+    bottom: -3px;
+    background: black;
+    transition: 0.3s ease;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+}
     </style>
     <title>port </portal></title>
 </head>
@@ -50,7 +70,7 @@
           
 
       </div>
-        <a href="https://www.linkedin.com/in/daniel-fasure-9118aa189/"><img src ="./images/linkin.png" height ="30px" width="30px"> </a>
+        <a href="https://www.linkedin.com/in/daniel-fasure-9118aa189/"><i class="fa-brands fa-linkedin-in"></i></a>
     </div>
 
   </nav>
@@ -88,14 +108,13 @@
           class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
           <img src="./images/list_icon.png" alt="bus-front" height="30">
         </div>
-        <h3 class="fs-2">adaptablity </h3>
-        <p>In development, you soon realize it's not about having everything memorized—it's about how quickly you can find the right information to solve a new problem.
-           I know exactly where to look and how to break down both routine and unexpected technical issues. I welcome the challenge of learning new APIs or digging deep into a programming language.
-           Ultimately, I believe in my ability to figure things out because I've consistently found solutions to every technical hurdle I've faced so far.
+        <h3 class="fs-2">the number one thing </h3>
+        <p>In development, it quickly becomes clear that success isn't about memorising everything, but about knowing how to find the right information and apply it effectively to new problems.
+I'm comfortable breaking down both routine and unexpected technical issues, and I'm confident in my ability to research and work through unfamiliar APIs or technologies when needed.
+Over time, I've built trust in my problem-solving ability by consistently working through challenges and reaching practical solutions, even when the path forward wasn't immediately obvious.
         </p>
         <a href="./html_pages/projects.html" class="icon-link">
-          projects
-          <img src="./images/todo.png" alt="chevron-right" height =30>
+          <i class="fa-solid fa-diagram-project"></i>   projects
         </a>
       </div>
       <div class="feature col">
@@ -104,15 +123,15 @@
           <img src="./images/list_icon.png" alt="chat-square-heart" height="30">
         </div>
         <h3 class="fs-2">achievements</h3>
-        <p>Since graduating from the University of Essex in 2024 with a degree in Computing, 
-          I've focused on building high-performance web applications. 
-          I'm a skilled backend developer with a professional experience with  Python frameworks like FastAPI with the database used being PostgreSQL. 
-          Beyond local development, I have hands-on cloud experience navigating the Azure portal to deploy VMs for UAT testing. 
-          Driven to continuously sharpen my cloud architecture skills,<br> earlier in 2026 i earned the Microsoft <span class="bold"> : azure fundamentals az-900</span>  certification."
+        <p>backend developer with experience using Python frameworks such as FastAPI, along with PostgreSQL for database management.<br>
+          I also have hands-on cloud experience, 
+          including working with the Azure portal to deploy virtual machines for UAT testing.
+           More recently, in 2026, <br>I earned the Microsoft  <span class="bold">  Azure Fundamentals (AZ-900)</span> certification as part of my goal
+            to strengthen my cloud architecture skills.<br>
         </p>
         <a href="https://www.linkedin.com/in/daniel-fasure-9118aa189/" class="icon-link">
-          linkedin 
-          <img src="./images/linkin.png" alt="chevron-right" height="30">
+        
+          <i class="fa-brands fa-linkedin-in"></i>
         </a>
       </div>
     </div>
@@ -143,14 +162,14 @@
                         <img src="./images/percy.jpg"
                              class="d-block w-100"
                              style="height:500px; object-fit:contain;">
-                             <h4 style="text-align: left;"> favourite book </h4>
+                             <h4 style="text-align: center;"> favourite book </h4>
                     </div>
 
                     <div class="carousel-item">
                         <img src="./images/hunterx_hunter.jpg"
                              class="d-block w-100"
                              style="height:500px; object-fit:contain;">
-                             <h4 style="text-align: left;"> favourite anime </h4>
+                             <h4 style="text-align: right;"> favourite anime </h4>
                     </div>
 
                 </div>
