@@ -1,147 +1,198 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>projects overview</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
- 
+    <title>Projects Overview</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-</head>
+
 <body>
 
- 
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img src="../images/brtyehub_logo.png" alt="moveit brand icon" height="30"> project overview</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./resume.html">resume</a>
-          </li>
-          <li class="nav-item dropdown">
-             <a class="nav-link dropdown-toggle" href="./html_pages/projects.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              projects  
+
+        <a class="navbar-brand" href="#">
+            <img src="../images/brtyehub_logo.png" height="30">
+            Project Overview
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="nav">
+
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="./resume.html">Resume</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Projects</a>
+
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="https://library-book-loaner.onrender.com">Library System</a></li>
+                        <li><a class="dropdown-item" href="./html_pages/adhd_accountabilty.html">Accountability Project</a></li>
+                    </ul>
+                </li>
+
+            </ul>
+
+            <a href="https://www.linkedin.com">
+                <img src="../images/linkin.png" height="30">
             </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="https://library-book-loaner.onrender.com">library system</a></li>
-              <li><a class="dropdown-item" href="./html_pages/adhd_accountabilty.html">Accountabilty fastapi project</a></li>
-             
-            </ul>
-          
 
-      </div>
-        <a href="https://www.linkedin.com/in/daniel-fasure-9118aa189/"><img src ="../images/linkin.png" height ="30px" width="30px"> </a>
+        </div>
+    </div>
+</nav>
+
+<!-- MAIN CONTENT -->
+<div class="container my-4">
+
+    <!-- TITLE -->
+    <div class="text-center mb-4">
+        <h1>Book Loaner App</h1>
+        <h2>About:</h2>
+        <p>
+            A complete library management system that allows users to register,
+            log in securely, browse libraries, manage books, and rent books.
+        </p>
     </div>
 
-  </nav>
+    <!-- CAROUSEL -->
+    <div class="row justify-content-center mb-5">
+        <div class="col-lg-8">
 
-  
-<div class="container">
-  
-    <div class="col-sm-10" style="text-align: center;">
-      <h1> book loaner app</h1>
-      
-      <h2> about:</h2>
-      <p>A complete library management system that allows users to register, log in securely, browse libraries, manage books, and rent books</p>
-      <img src="../images/library_home_screen.png" height="400px" width="400px">    
-     
-      </div>
-      <div class="row">  
-        <div class="col-sm-6" >
-           <h2> Features: </h2>
-        <ul>
-       <li>  user features </li>
-              <ul>
-                <li>login and registerations page </li>
-                <li> can view books informations </li>
-                <li>ability to add books to loan list </li>
-                <li> ability to add review on books read </li>
-                
+            <div id="carouselExampleIndicators" class="carousel slide">
 
-              
-              </ul> 
-          </li>
-           <li> security features </li>
-              <ul>
-                <li>Oauth authentication  </li>
-                <li>role authentication applied code need to have a role  </li>
-                <li>password hashed with a security </li>
-              
-                
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></button>
+                </div>
+
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+                        <img src="../images/library_home_screen.png"
+                             class="d-block w-100"
+                             style="height:500px; object-fit:contain;">
+                             <h4 style="text-align: left;"> here is the login page </h4>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="../images/library_home_screen.png"
+                             class="d-block w-100"
+                             style="height:500px; object-fit:contain;">
+                             <h4 style="text-align: left;"> here is the register page </h4>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="../images/library_home_screen.png"
+                             class="d-block w-100"
+                             style="height:500px; object-fit:contain;">
+                             <h4 style="text-align: left;"> here is the user dash board</h4>
+                    </div>
+
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- FEATURES -->
+    <h2 class="text-center mb-4">Features</h2>
+
+    <div class="row mb-5">
+
+        <div class="col-md-4">
+            <h4 class="text-center">User Features</h4>
+            <ul>
+                <li>Login and registration</li>
+                <li>View book information</li>
+                <li>Add books to loan list</li>
+                <li>Leave reviews</li>
             </ul>
-
-           
-          <li> improvents to be made </li>
-          
-              <ul>
-                <li>add more libraries  </li>
-                <li>run webservices on upgrade services to allow for quicker searches and access of website and data  </li>
-
-              </ul>
-
-            </li>
-        </ul>
         </div>
 
-        <div class="col-sm-6">
-          <h2> technical skills:</h2>
-          <ul> 
-            <li>back end
-              <ul>
-                <li>python</li>
-                <li> fastapi</li>
+        <div class="col-md-4">
+            <h4 class="text-center">Security Features</h4>
+            <ul>
+                <li>OAuth authentication</li>
+                <li>Role-based authorization</li>
+                <li>Secure password hashing</li>
+            </ul>
+        </div>
+
+        <div class="col-md-4">
+            <h4 class="text-center">Future Features</h4>
+            <ul>
+                <li>Add more libraries</li>
+                <li>Improve performance</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <!-- TECHNICAL SKILLS -->
+    <h2 class="text-center mb-4">Technical Skills</h2>
+
+    <div class="row">
+
+        <div class="col-md-4">
+            <h4 class="text-center">Back End</h4>
+            <ul>
+                <li>Python</li>
+                <li>FastAPI</li>
                 <li>SQLAlchemy</li>
-                <li> PostgreSQL</li>
+                <li>PostgreSQL</li>
                 <li>Pydantic</li>
-                <li>alembic </li>
-
-              
-              </ul> 
-          </li>
-            <li>frontend
-              <ul>
-                <li>HTML  </li>
-                <li>css</li>
-                <li>bootstrap</li>
-                <li>javascript</li>
-                <li> Jinja Template </li>
-                
+                <li>Alembic</li>
             </ul>
-
-            </li>
-          <li> development </li>
-
-              <ul>
-                <li>git </li>
-                <li>render </li>
-
-              </ul>
-
-            </li>
-          
-          </ul>
-          
         </div>
-      </div>
-      
-      
-    </div>
-    
-  
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-    crossorigin="anonymous"></script>
+        <div class="col-md-4">
+            <h4 class="text-center">Front End</h4>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Bootstrap</li>
+                <li>JavaScript</li>
+                <li>Jinja Templates</li>
+            </ul>
+        </div>
+
+        <div class="col-md-4">
+            <h4 class="text-center">Development</h4>
+            <ul>
+                <li>Git</li>
+                <li>Render</li>
+            </ul>
+        </div>
+
+    </div>
+
+</div>
+
+<!-- BOOTSTRAP JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>
