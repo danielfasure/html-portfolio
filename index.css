@@ -54,6 +54,11 @@ body {
 
 .navbar {
     background: #1E293B;
+    opacity: 50%;
+}
+.navbar:hover{
+    
+    opacity: 85%;
 }
 .nav-link::after {
     content: "";
