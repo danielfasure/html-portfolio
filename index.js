@@ -34,3 +34,6 @@ if(dice1>dice2){
 }
 
 }
+
+ let video=document.getElementById('#myVideo');
+ video.playbackRate= 0.5;

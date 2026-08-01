@@ -1,0 +1,92 @@
+    .bold{
+      color: black;
+      font-weight: 900;
+      font-weight: bold;
+      font-size:larger ;
+    }
+    .nav-link {
+    position: relative;
+    text-decoration: none;
+}
+h3:hover{
+  color: rgba(0,0,255,.1);
+}
+h2{
+  font-weight:900;
+  
+}
+p{
+    font-weight: 500;
+    font-family: "Popping",sans-serif;
+}
+
+h2:hover{
+  color: rgba(0,0,255,.1);
+  font-weight:bold;
+
+}
+
+.container-fluid{
+    font-family:Sans serif ;
+    color:#FACC15
+}
+body {
+  background-image:url("./images/Screenshot\ 2026-07-27\ 182808.png") ;
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;;
+
+ 
+    
+  color: #F8FAFC;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  z-index: -1;
+  
+}
+
+.navbar {
+    background: #1E293B;
+}
+.nav-link::after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    left: 0;
+    bottom: -3px;
+    background: rgb(49, 47, 42);
+    transition: 0.3s ease;
+}
+
+
+.nav-link:hover::after {
+    width: 100%;
+}
+.card{
+    opacity: 50%;
+    background-color: grey;
+}
+.card-body{
+    opacity: 100%;
+  transition: all 0.3s;
+  background-color: grey;
+  color: #F8FAFC;
+
+}
+.card-text{
+    opacity: 100%;
+    font-weight: 700;
+     font-family: "Popping",sans-serif;
+}
+.card:hover{
+  transform: scale(1.05);
+
+}
