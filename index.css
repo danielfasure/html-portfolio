@@ -77,13 +77,13 @@ body {
 }
 .card{
     opacity: 50%;
-    background-color: grey;
+    background-color: greenyellow;
     transform:2s ease;
 }
 .card-body{
     opacity: 700%;
   transition: all 0.3s;
-  background-color: grey;
+  background-color: green;
   color: #F8FAFC;
 
 }
