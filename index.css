@@ -87,6 +87,30 @@ body {
   color: #F8FAFC;
 
 }
+.about_div{
+  margin-bottom:10px;
+  font-size:100px; font-weight: 600;
+font-family: 'Popping'; margin-top: 50px; 
+}
+.experience_div{
+  background-color: greenyellow; 
+  font-family: 'Popping'; margin-top: 50px; 
+   opacity: 95% ;
+   font-weight: 700;
+   font-size: 25px;
+   margin :auto ;
+   color:green;
+}
+.project_div{
+  margin: auto;
+  margin-bottom: 20px;
+  color: green;
+  font-weight: 700;
+  font-size: 25px;
+  background-color: greenyellow;
+  font-family: 'Popping';
+
+}
 .card-text{
     opacity: 100%;
     font-weight: 700;
