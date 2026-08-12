@@ -53,12 +53,12 @@ font-size: 40px;
 }
 
 .navbar {
-    background: #1E293B;
-    opacity: 50%;
+    background: lightgreen;
+    opacity: 100%;
 }
 .navbar:hover{
     
-    opacity: 85%;
+    opacity: 50%;
 }
 .nav-link::after {
     content: "";
@@ -76,12 +76,12 @@ font-size: 40px;
     width: 100%;
 }
 .card{
-    opacity: 50%;
+    opacity: 100%;
     background-color: lightgreen;
     transform:2s ease;
 }
 .card-body{
-    opacity: 700%;
+    opacity: 100%;
   transition: all 0.3s;
   background-color: lightgreen;
   color: #F8FAFC;
@@ -101,7 +101,7 @@ color: white;
 .experience_div{
   background-color: lightgreen; 
   font-family: 'Popping'; margin-top: 50px; 
-   opacity: 95% ;
+   opacity: 100% ;
    font-weight: 700;
    font-size: 35px;
    margin :auto ;
