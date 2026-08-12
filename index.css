@@ -89,12 +89,12 @@ body {
 }
 .about_div{
   margin-bottom:10px;
-  font-size:100px; font-weight: 600;
+  font-size:200px; font-weight: 600;
 font-family: 'Popping';
 margin: auto;
 margin-top: 50px; 
 
-background-color: darkolivegreen;
+
 color: white;
 
 }
@@ -103,18 +103,20 @@ color: white;
   font-family: 'Popping'; margin-top: 50px; 
    opacity: 95% ;
    font-weight: 700;
-   font-size: 25px;
+   font-size: 35px;
    margin :auto ;
    color:rgb(1, 2, 1);
+
 }
 .project_div{
   background-color: greenyellow; 
   font-family: 'Popping'; margin-top: 50px; 
    opacity: 95% ;
    font-weight: 700;
-   font-size: 25px;
+   font-size: 35px;
    margin :auto ;
    color:rgb(1, 2, 1);
+
 
 }
 .card-text{
