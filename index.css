@@ -162,10 +162,11 @@ color: white;
   color: black;
 }
 .online_customer_advisor h1{
-  color: green;
+ color:green;
+
 }
 .online_customer_advisor h2{
-  color: black;
+  color:black
 }
 
 .experience_header{
@@ -176,3 +177,18 @@ color: white;
   background-color: lightgreen;
   margin-bottom: 20px;
 }
+.what_i_can_do_div{
+  background-color: lightgreen;
+  color: black;
+  font-size: 35px;
+
+   font-family: 'Poppins';
+
+}
+.what_i_can_do_div h1{
+color: darkgreen;
+font-weight: 700;
+font-size: 1000px;
+ font-family: 'Poppins';
+}
+
