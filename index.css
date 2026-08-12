@@ -93,7 +93,7 @@ body {
 font-family: 'Popping';
 margin: auto;
 margin-top: 50px; 
-
+background-color: lightgreen;
 
 color: white;
 
@@ -109,7 +109,7 @@ color: white;
 
 }
 .project_div{
-  background-color: greenyellow; 
+  background-color: green; 
   font-family: 'Popping'; margin-top: 50px; 
    opacity: 95% ;
    font-weight: 700;
