@@ -55,6 +55,9 @@ font-size: 40px;
 .navbar {
     background: lightgreen;
     opacity: 100%;
+    
+
+    
 }
 .navbar:hover{
     
@@ -139,7 +142,7 @@ color: white;
 }
 
 .about_div h1{
-  font-size: 200px;
+  font-experience_headersize: 200px;
   color: green;
 }
 .about_div h2{
@@ -163,4 +166,13 @@ color: white;
 }
 .online_customer_advisor h2{
   color: black;
+}
+
+.experience_header{
+  background-color: lightgreen;
+  margin-bottom: 0px;
+}
+.projects_header{
+  background-color: lightgreen;
+  margin-bottom: 20px;
 }
