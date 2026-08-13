@@ -99,25 +99,31 @@ font-family: Inter, sans-serif;
 background-color: lightgreen;
 
 color: white;
+opacity: 95%;
 
 }
 .experience_div{
   background-color: lightgreen; 
   font-family: 'Popping'; margin-top: 50px; 
-   opacity: 100% ;
+   opacity: 95% ;
    font-weight: 700;
    font-size: 35px;
    margin :auto ;
    color:rgb(1, 2, 1);
 
+
 }
+.experience_div h1{
+  color: green;
+}
+
 .project_div{
   background-color: lightgreen; 
-   font-family: 'Poppins'; margin-top: 50px; 
+   font-family: 'Poppins'; 
    opacity: 95% ;
    font-weight: 700;
    font-size: 35px;
-   margin :auto ;
+   
    color:rgb(1, 2, 1);
 
 }
@@ -126,7 +132,8 @@ color: white;
 }
 .experience_div h1{
   font-size: 100px;
-  font-family: Inter, sans-serif;
+  font-family: 'Inter', sans-serif;
+   color: green;
 
 
 }
@@ -161,10 +168,10 @@ color: white;
 
 }
 .customer_tech_divh2:hover{
-color: green;
+color: greenyellow;
 }
 .experience_div h2:hover{
-  color: green;
+  color: greenyellow;
 }
   
 
@@ -180,7 +187,7 @@ color: green;
   color:black
 }
 .online_customer_advisor h2:hover{
-  color: green;
+  color: greenyellow;
 }
 
 
