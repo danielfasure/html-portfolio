@@ -149,15 +149,26 @@ color: white;
   font-size:70px;
   
 }
-.customer_tech_div {
-  color: white;
-}
+
 .customer_tech_div h1 {
   color: green;
 }
 .customer_tech_div p{
   color: black;
 }
+.customer_tech_divh2{
+  color: black;
+
+}
+.customer_tech_divh2:hover{
+color: green;
+}
+.experience_div h2:hover{
+  color: green;
+}
+  
+
+
 .online_customer_advisor{
   color: black;
 }
@@ -168,14 +179,10 @@ color: white;
 .online_customer_advisor h2{
   color:black
 }
+.online_customer_advisor h2:hover{
+  color: green;
+}
 
-.experience_header{
-  background-color: lightgreen;
-  margin-bottom: 0px;
-}
-.experience_header:hover{
-  background:none;
-}
 
 .what_i_can_do_div{
   background-color: lightgreen;
@@ -198,4 +205,5 @@ font-size: 1000px;
 .header:hover{
   background: none;
 }
+
 
