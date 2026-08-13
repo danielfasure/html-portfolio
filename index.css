@@ -54,14 +54,14 @@ font-size: 40px;
 
 .navbar {
     background: lightgreen;
-    opacity: 100%;
+
     
 
     
 }
 .navbar:hover{
-    
-    opacity: 50%;
+    background: none;
+   
 }
 .nav-link::after {
     content: "";
@@ -173,10 +173,10 @@ color: white;
   background-color: lightgreen;
   margin-bottom: 0px;
 }
-.projects_header{
-  background-color: lightgreen;
-  margin-bottom: 20px;
+.experience_header:hover{
+  background:none;
 }
+
 .what_i_can_do_div{
   background-color: lightgreen;
   color: black;
@@ -190,5 +190,12 @@ color: darkgreen;
 font-weight: 700;
 font-size: 1000px;
  font-family: 'Poppins';
+}
+.header{
+  background-color: lightgreen;
+  color: darkgreen;
+}
+.header:hover{
+  background: none;
 }
 
