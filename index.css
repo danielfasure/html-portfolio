@@ -214,3 +214,16 @@ font-size: 1000px;
 }
 
 
+.c-item{
+height: 300px;
+
+width: 100%;
+}
+.c-img{
+  max-height: 100%;
+  max-width: 100%;
+
+  object-fit: cover;
+  flex: 1 0 auto;
+
+}
