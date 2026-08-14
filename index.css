@@ -227,3 +227,15 @@ width: 100%;
   flex: 1 0 auto;
 
 }
+.junior_developer_div,
+.customer_tech_div,
+.online_customer_advisor {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
+.visible{
+  display:block;
+}
