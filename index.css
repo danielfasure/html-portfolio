@@ -70,7 +70,7 @@ font-size: 40px;
     height: 2px;
     left: 0;
     bottom: -3px;
-    background: rgb(49, 47, 42);
+    background: green;
     transition: 0.3s ease;
 }
 
