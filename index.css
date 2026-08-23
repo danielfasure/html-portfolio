@@ -138,14 +138,15 @@ opacity: 95%;
 }
 .card{
     opacity: 100%;
-   background-color: darkolivegreen;
+  background-color: green;
+  
     transform:3s ease;
 }
 .card-body{
     opacity: 100%;
-     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTW9qY74Nv0SShXTCZdYj7R5lIAWNqI8td4o7mF7ImoQ&s=10);
+     background-image: url(https://i.pinimg.com/originals/e6/30/42/e63042b4756f0602934d2e256e85244a.jpg?nii=t);
  background-size: cover;
- color: antiquewhite;
+ color: green;
   transition: all 0.3s;
   ;
 
