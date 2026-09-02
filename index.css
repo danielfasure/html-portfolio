@@ -20,6 +20,7 @@ p{
     font-family: 'Popping',sans-serif;
 }
 
+
 h2:hover{
   color: rgba(0,0,255,.1);
   font-weight:bold;
@@ -31,7 +32,7 @@ h2:hover{
     color:#FACC15
 }
 body {
-  background-image:url("./images/Screenshot\ 2026-07-27\ 182808.png") ;
+ 
   height: 100%;
   width: 100%;
   background-repeat: no-repeat;
@@ -39,7 +40,8 @@ body {
 font-size: 40px;
  
     
-  color: lightgreen;
+  color: green;
+  background-color: lightgreen;
 }
 
 #myVideo {
@@ -144,21 +146,23 @@ opacity: 95%;
 }
 .card-body{
     opacity: 100%;
-     background-image: url(https://i.pinimg.com/originals/e6/30/42/e63042b4756f0602934d2e256e85244a.jpg?nii=t);
+     background-color: lightgreen;
  background-size: cover;
  color: green;
   transition: all 0.3s;
   ;
 
 }
-
-.about_div h1{
-  font-size: 200px;
+.container-fluid{
+  color: black;
+}
+.container-fluid h1{
   color: green;
 }
-.about_div h2{
-  font-size:70px;
+
+.about_div h1{
   
+  color: green;
 }
 
 .customer_tech_div h1 {
@@ -242,4 +246,21 @@ width: 100%;
 }
 .visible{
   display:block;
+}
+
+.carousel-item {
+  background-color: lightgreen;
+}
+.experience_div{
+background-color: lightgreen;
+}
+.extra_div{
+background-color: lightgreen;
+}
+
+.footer{
+  background-color: lightgreen;
+}
+.footer:hover{
+  opacity: 20%;
 }
