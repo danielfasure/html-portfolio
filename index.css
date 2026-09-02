@@ -118,6 +118,12 @@ opacity: 95%;
    color:rgb(1, 2, 1);
 
 }
+.project_div ul{
+  color: black;
+}
+.project_div h2{
+ color: green;
+}
 .navbar{
   color: green;
 }
