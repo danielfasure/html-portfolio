@@ -87,3 +87,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
     })
 });
+
+const skills_div =document.querySelectorAll(".cardskill");
+ for(const skill_div of skills_div){
+    skill_div.addEventListener("click",()=>{
+        alert("clicked")
+skill_div.toggle("hidden")
+    })
+    
+    
+    }

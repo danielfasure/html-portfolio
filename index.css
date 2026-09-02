@@ -9,7 +9,7 @@
     text-decoration: none;
 }
 h3:hover{
-  color: rgba(0,0,255,.1);
+  color: green;
 }
 h2{
   font-weight:900;
@@ -22,7 +22,7 @@ p{
 
 
 h2:hover{
-  color: rgba(0,0,255,.1);
+  color: green;
   font-weight:bold;
 
 }
@@ -147,7 +147,7 @@ opacity: 95%;
 .card{
     opacity: 100%;
   background-color: lightgreen;
-  color: green;
+  color: black;
   
     transform:3s ease;
 }
@@ -270,4 +270,7 @@ background-color: lightgreen;
 }
 .footer:hover{
   opacity: 20%;
+}
+.hidden{
+  display: none;
 }

@@ -40,3 +40,16 @@ for (let i = 0; i < button_collection.length; i++) {
 
     });
 }
+
+
+const skills_div =document.querySelector(".cardskill");
+const skills_p =skills_div.querySelectorAll(".card");
+
+ for(const skill_p of skills_p){
+    skill_p.addEventListener("click",()=>{
+   const skill_opener= skill_p.querySelector("p");
+skill_opener.classList.toggle("hidden");
+    })
+    
+    
+    }
