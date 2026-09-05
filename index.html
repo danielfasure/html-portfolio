@@ -13,7 +13,7 @@
     <title>port </portal></title>
 </head>
 <body>
-  <div class="container-fluid">
+  
 <nav class="navbar sticky-top navbar-expand-sm  ">
   <h1 class="navbar-brand " >
 Daniel Fasure Portfolio.
@@ -42,28 +42,28 @@ Daniel Fasure Portfolio.
 
 
     </nav>
-   
+   <div class="container-fluid mt-5 ">
     <video autoplay muted loop id="myVideo">
   <source src="./sample_videos/page1_video.mp4" type="video/mp4">
 </video>
 
- <div class= "about_div col-12 my-auto mx-auto"  > 
+ <div class= "about_div  "  > 
         <div class="row  ">
-        <div class=" col-lg-7 col-sm-12  "> 
+        <div class=" col-lg-11 col-sm-12  text-center "> 
       
-<h1  class="fs-1 fw-boldest"  id ="scrollspyAboutHeading"> 
-Daniel <br>Fasure 
+<h2  class="fs-1 fw-boldest"  id ="scrollspyAboutHeading"> 
+Daniel Fasure 
 
 
-</h1>
-  <h2 class="fs-1 fw-boldest">
+</h2>
+  <h2 class="fs-3 fw-boldest">
      Backend Engineer /<br> with   <br> Software Developer Skills
     </h2>
     
    
     </div>
-    <div class="col-4 my-5   me-1 mx-0">
-      <img class="mw-100 mh-100"  src="./images/graduation.JPG" >
+    <div class="col-lg-1 col-3  my-auto mx-auto text-center ">
+      <img class ="c-img"  src="./images/graduation.JPG"  >
 
     </div>
     
@@ -72,8 +72,8 @@ Daniel <br>Fasure
 
       </div>
 
-     <div class="header text-center my-5" >
-        <h1 id="scrollspyExperienceHeading">My Experience</h1>
+     <div class="header text-center mx-auto" >
+        <h2 class="fs-1" id="scrollspyExperienceHeading">My Experience</h2>
      </div>
   
 <div id="carouselIndicators" class="carousel slide" data-bs-slide="carousel">
@@ -82,7 +82,7 @@ Daniel <br>Fasure
     <div class="carousel-item active c-item">
      
        <div class="carousel-caption   d-block "style ="color:green"> 
-        <h2>Junior Developer </h2>
+        <h2 class="fs-1">Junior Developer </h2>
         <h3>Main Role </h3>
         <h4>helping create new endpoint to implement new features and testing and mainting current ones </h4>
         <a><button class="c-button junior_developer_opener btn btn-success">expand info</button></a>
@@ -92,7 +92,7 @@ Daniel <br>Fasure
       
        <div class="carousel-caption   d-block "style ="color:green"> 
         <h2>customer software support  </h2>
-        <h2>Main Role</h2>
+        <h3>Main Role</h3>
         <h4> helping users to login in to there nhs portal and complete booking . whilist sending off appropriate tickets. </h4>
         <a><button class="c-button customer_tech_opener btn btn-success" >expand info</button></a>
        </div>
@@ -102,7 +102,7 @@ Daniel <br>Fasure
       
       <div class="carousel-caption   d-block "style ="color:green"> 
         <h2>customer advisor  </h2>
-        <h2>Main Role</h2>
+        <h3>Main Role</h3>
         <h4> Helping user save money and order home heating  </h4>
         <a><button class="c-button customer_service_opener btn btn-success">expand info</button></a>
        </div>
@@ -126,10 +126,10 @@ Daniel <br>Fasure
       <div class="  col-12 my-5 experience_div">
      <div class="junior_developer_div" >
      
-       <h1 class="mb-5">Junior Backend Developer</h1> 
+       <h2 class="mb-5">Junior Backend Developer</h2> 
       
-            <h2 class="mb-5">Bryte hub </h2>
-           <h2 class="mb-5">2024 -2026 </h2>
+            <h3 class="mb-5">Bryte hub </h3>
+           <h3 class="mb-5">2024 -2026 </h3>
             <p >maintained highly performant backend microservices for a core 
             hospital-based application leveraging Python and FastAPI. <br>
              Containerized multi-service applications using Docker and Docker Compose. tested user daata  using azure vm services to deploy / mointor new and maintain current end points and run UAT
@@ -175,7 +175,7 @@ Worked effectively in a fast-paced environment, balancing multiple priorities wh
         
   
      </div><div class="projects_header header" >
-        <h1 style="color: green; font-weight: 700; text-align: center; margin-left: 10px;">My projects </h1>
+        <h2 class="fs-1 text-center">My projects </h2>
 
      </div>
 <div class="project_div col-12" id ="scrollspyProjectsHeading" >
@@ -183,17 +183,17 @@ Worked effectively in a fast-paced environment, balancing multiple priorities wh
     <br>
  
    
-          <h1 class="text-center" > Library Book Loaner Project</h1>
+          <h2 class=" fs-1 text-center" > Library Book Loaner Project</h2>
       
 
-            <h2 class="fs-1 fw-boldest">  Authethcation </h2>
+            <h2 class="fs-3 fw-boldest">  Authethcation </h2>
             <ul><li class="fs-5">by using cookies and sending json 
               to the fast api endpoint to validate the user  to keep user 
               login saved</li><br><br></p>
             </ul>
-      <h2 class="fs-2 fw-boldest">    FullStack deployment:</h2><p class="fs-5">
+      <h2 class="fs-3 fw-boldest">    FullStack deployment:</h2><p class="fs-5">
         
-        <ul><li class="fs-5"> python as the backend with fastapi framework being used to add functionalatiy to the frontend pages 
+        <ul><li class="fs-5">  by using python as the backend with fastapi framework being used to add functionalatiy to the frontend pages 
         i have created to represent book loaner servicer  create static pages
          or connect to frontend server and allowing CRUD operation  with the backend 
          application being postgresql</li><br><li class="fs-5">
@@ -209,40 +209,40 @@ Worked effectively in a fast-paced environment, balancing multiple priorities wh
 
      
   
-        <h1 class="fs-1  my-3 text-center header" >Techincal skills  (clickable! ) </h1>
+        <h2 class="fs-1  my-3 text-center " >Techincal skills  (clickable! ) </h2>
      
   
-       <div class="row cardskill ">
-                <div class="card col-lg-3  mx-2 my-2 col-12 me-auto" >
-        <h1 class="fs-1"> Web Deployment</h1>
+       <div class="  row cardskill text-center  ">
+                <div class="card col-lg-3   my-2 col-12 " >
+        <h2 class="fs-1"> Web Deployment</h2>
         
           <p class="fs-5 fw-bold hidden "> using webservices such as azure appservices, vercel to deploy application <br><br> Making sure to use reliable configuration  </p>
          
         </div>
-        <div class="card  col-lg-3 mx-2 my-2 col-12 me-auto  " >
-         <h1 class="fs-1 fw-boldest"> Authentication & Authorisation</h1>
+        <div class="card  col-lg-3  my-2 col-12 me-auto  " >
+         <h2 class="fs-1 fw-boldest"> Authentication & Authorisation</h2>
           
           <p class="fs-5 fw-bold hidden ">implementing user authentication with the use of Api verfication 
            sending json to recieve a Authorisation token to allow different request agaisnt the API
           this help protect the application and manage user access </p>
         
         </div>
-        <div class="card  col-lg-3 mx-2 my-2  col-12 me-auto" >
-         <h1 class="fs-1"> REST API Development </h1>
+        <div class="card  col-lg-3  my-2  col-12 me-auto" >
+         <h2 class="fs-1"> REST API Development </h2>
           
           <p class="fs-5 fw-bold hidden"> designing API based on the application needs these api are created to allow my frontend services to make request to backend services which then call the api which would often be Fast API to send a response back to the frontend to display the relevenat info for an interactive application</p>
       
         </div>
       
 
-        <div class="card col-lg-3   mx-2 my-2 col-12 me-auto">
-         <h1 class="fs-1"> Unit & Integration Testing</h1>
+        <div class="card col-lg-3    my-2 col-12 me-auto">
+         <h2 class="fs-1"> Unit & Integration Testing</h2>
         
           <p class="fs-5 fw-bold hidden">writing structured automated Javascript test to help identify bugs whilist making sure the main features send back the correct HTTP Response <br>achieving this using resource such as postman to run test inside my colllection</p>
        
         </div>
-        <div class="card col-lg-3  mx-2 my-2 col-12 me-auto" >
-         <h1 class="fs-1"> Full-Stack Development</h1>
+        <div class="card col-lg-3   my-2 col-12 me-auto" >
+         <h2 class="fs-1"> Full-Stack Development</h2>
           
           <p class="fs-5 fw-bold hidden ">learnt and developed fullstack application connecting 
             user request to api endpoints and creatig communaction for CRUD operation on ORDBMS Such as postgres and Mysql</p>
@@ -250,27 +250,27 @@ Worked effectively in a fast-paced environment, balancing multiple priorities wh
         
 
         </div>
-        <div class="card col-lg-3 mx-2 my-2 col-12 me-auto">
-             <h1 class="fs-1"> Database Management</h1>
+        <div class="card col-lg-3  my-2 col-12 me-auto">
+             <h2 class="fs-1"> Database Management</h2>
               
           <p class="fs-5 fw-bold hidden">developing a great understanding in sql such as in the creation 
             of a DB  and the querying and joing of tables to organise data for analysis</p>
       
         </div>
-        <div class="card col-lg-3 mx-2 my-2 col-12 me-auto">
-          <h1 class="fs-1">  Docker & Docker Compose</h1>
+        <div class="card col-lg-3  my-2 col-12 me-auto">
+          <h2 class="fs-1">  Docker & Docker Compose</h2>
            
           <p class="fs-5 fw-bold hidden">creating and using docker registory to deploy container where images where ran or created using dockerFiles <br>understanding networking and how to assign container to storages and writing docker compose files  </p>
       
         </div>
-        <div class="card col-lg-3 mx-2 my-2 col-12 me-auto">
-         <h1 class="fs-1">   CI/CD integeration </h1>
+        <div class="card col-lg-3  my-2 col-12 me-auto">
+         <h2 class="fs-1">   CI/CD integeration </h2>
            
           <p class="fs-5 fw-bold hidden">i understand how to use bash to access files and create scripts and run said scripts cl allow for faster deployment such as using docker cl for quicker deployment of container </p>
        
         </div>
-        <div class="card col-lg-3 mx-2 my-2 col-12 me-auto">
-          <h1 class="fs-1">  Cloud Computing </h1>
+        <div class="card col-lg-3  my-2 col-12 me-auto">
+          <h2 class="fs-1">  Cloud Computing </h2>
            
           <p class="fs-5 fw-bold hidden">using different cloud services mainly the azure services to help deploy and manage the resources i may need to use for a project or work such a azure vm to development of a new feature for a application but to access and alter the 
             code to must use certain domains for security </p>
@@ -290,10 +290,10 @@ Worked effectively in a fast-paced environment, balancing multiple priorities wh
        
      
   
-
+<h2 class="my-5 text-center "> Extra Stuff </h2>
         <div class ="col-12 my-5 text-center extra_div" id="scrollspyExtraHeading">
           <div class ="extra_linux fs-1 fw-boldest">
-            <h1 class="my-5"> Extra Stuff </h1>
+           
             <h1 class="my-5"> Linux understanding </h1>
             <p class="fs-5">  made the switch to Linux full-time in 2026. I went with the Arch-based distro CachyOS because of the level of control and customisation it offers. I wanted to make the switch because I had already gained over two years of familiarity with Linux in my previous role, where Ubuntu was used
               . from that role I gained a good level of experience with CI/CD and Linux.

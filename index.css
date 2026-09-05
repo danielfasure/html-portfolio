@@ -13,7 +13,8 @@ h3:hover{
 }
 h2{
   font-weight:900;
-  
+  color:white ;
+  background-color: lightgreen;
 }
 p{
     font-weight: 500;
@@ -24,6 +25,7 @@ p{
 h2:hover{
   color: green;
   font-weight:bold;
+  background-color: transparent;
 
 }
 
@@ -56,6 +58,7 @@ font-size: 40px;
 
 .navbar {
     background: lightgreen;
+    width: 100%;
 
     
 
@@ -78,7 +81,7 @@ font-size: 40px;
 
 
 .nav-link:hover::after {
-    width: 100%;
+    height:  100%;
 }
 
 .about_div{
@@ -143,6 +146,7 @@ opacity: 95%;
   transform: scale(1.1);
   opacity: 100%;
 
+
 }
 .card{
     opacity: 100%;
@@ -178,11 +182,11 @@ opacity: 95%;
 .customer_tech_div p{
   color: black;
 }
-.customer_tech_divh2{
+.customer_tech_div h2{
   color: black;
 
 }
-.customer_tech_divh2:hover{
+.customer_tech_div h2:hover{
 color: green;
 }
 .experience_div h2:hover{
@@ -235,10 +239,10 @@ height: 300px;
 width: 100%;
 }
 .c-img{
-  max-height: 100%;
+
   max-width: 100%;
 
-  object-fit: cover;
+  object-fit: contain;
   flex: 1 0 auto;
 
 }
@@ -267,10 +271,12 @@ background-color: lightgreen;
 
 .footer{
   background-color: lightgreen;
+  width: 100%;
 }
 .footer:hover{
-  opacity: 20%;
+  background-color: transparent;
 }
 .hidden{
   display: none;
 }
+
