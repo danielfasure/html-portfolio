@@ -1,55 +1,72 @@
-let button_collection = document.querySelectorAll(".c-button");
+/* =====================================================
+   BACKGROUND VIDEO
+===================================================== */
 
-let customer_Service_div = document.querySelector('.online_customer_advisor');
-let customer_tech_div = document.querySelector('.customer_tech_div');
-let junior_developer_div = document.querySelector('.junior_developer_div');
+const video = document.getElementById("myVideo");
 
-for (let i = 0; i < button_collection.length; i++) {
-
-    button_collection[i].addEventListener('click', function() {
-
-        if (this.classList.contains('customer_service_opener')) {
-
-       
-
-            customer_Service_div.classList.add('visible');
-            customer_tech_div.classList.remove('visible');
-            junior_developer_div.classList.remove('visible');
-
-        } 
-        
-        else if (this.classList.contains('junior_developer_opener')) {
-
-           
-
-            junior_developer_div.classList.add('visible');
-            customer_tech_div.classList.remove('visible');
-            customer_Service_div.classList.remove('visible');
-
-        } 
-        
-        else {
-
-           
-
-            customer_tech_div.classList.add('visible');
-            customer_Service_div.classList.remove('visible');
-            junior_developer_div.classList.remove('visible');
-
-        }
-
-    });
+if (video) {
+    video.playbackRate = 0.5;
 }
 
 
-const skills_div =document.querySelector(".cardskill");
-const skills_p =skills_div.querySelectorAll(".card");
+/* =====================================================
+   EXPERIENCE
+===================================================== */
 
- for(const skill_p of skills_p){
-    skill_p.addEventListener("click",()=>{
-   const skill_opener= skill_p.querySelector("p");
-skill_opener.classList.toggle("hidden");
-    })
-    
-    
-    }
+const experienceButtons =
+    document.querySelectorAll(".experience-button");
+
+const experienceSections =
+    document.querySelectorAll(".experience-details");
+
+
+experienceButtons.forEach(button => {
+
+    button.addEventListener("click", () => {
+
+        const targetId =
+            button.dataset.target;
+
+        experienceSections.forEach(section => {
+            section.classList.remove("active");
+        });
+
+        const target =
+            document.getElementById(targetId);
+
+        if (target) {
+            target.classList.add("active");
+
+            target.scrollIntoView({
+                behavior: "smooth",
+                block: "start"
+            });
+        }
+
+    });
+
+});
+
+
+/* =====================================================
+   SKILLS
+===================================================== */
+
+const skillCards =
+    document.querySelectorAll(".skill-card");
+
+
+skillCards.forEach(card => {
+
+    card.addEventListener("click", () => {
+
+        const description =
+            card.querySelector(".skill-description");
+
+        if (description) {
+            description.classList.toggle("d-none");
+        }
+
+    });
+
+});

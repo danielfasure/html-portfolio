@@ -1,282 +1,270 @@
-    .bold{
-      color: black;
-      font-weight: 900;
-      font-weight: bold;
-      font-size:larger ;
-    }
-    .nav-link {
-    position: relative;
-    text-decoration: none;
-}
-h3:hover{
-  color: green;
-}
-h2{
-  font-weight:900;
-  color:white ;
-  background-color: lightgreen;
-}
-p{
-    font-weight: 500;
-    font-family: 'Popping',sans-serif;
+/* =====================================================
+   GLOBAL
+===================================================== */
+
+:root {
+    --green: #198754;
+    --dark-green: #14532d;
+    --light-green: #d9f99d;
+    --section-green: rgba(217, 249, 157, 0.94);
+    --text-dark: #111;
 }
 
-
-h2:hover{
-  color: green;
-  font-weight:bold;
-  background-color: transparent;
-
+* {
+    box-sizing: border-box;
 }
 
-.container-fluid{
-    font-family:Sans serif ;
-    color:#FACC15
+html {
+    scroll-behavior: smooth;
 }
+
 body {
- 
-  height: 100%;
-  width: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-font-size: 40px;
- 
-    
-  color: green;
-  background-color: lightgreen;
+    margin: 0;
+
+    font-family: "Poppins", sans-serif;
+
+    color: var(--text-dark);
+
+    background: var(--light-green);
 }
+
+
+/* =====================================================
+   BACKGROUND VIDEO
+===================================================== */
 
 #myVideo {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%; 
-  min-height: 100%;
-  z-index: -1;
-  
-}
+    position: fixed;
 
-.navbar {
-    background: lightgreen;
+    inset: 0;
+
     width: 100%;
+    height: 100%;
 
-    
+    object-fit: cover;
 
-    
+    z-index: -2;
 }
-.navbar:hover{
-    background: none;
-   
-}
-.nav-link::after {
+
+
+/* Overlay */
+
+body::before {
     content: "";
-    position: absolute;
-    width: 0%;
-    height: 2px;
-    left: 0;
-    bottom: -3px;
-    background: green;
-    transition: 0.3s ease;
+
+    position: fixed;
+
+    inset: 0;
+
+    background: rgba(217, 249, 157, 0.65);
+
+    z-index: -1;
 }
 
 
-.nav-link:hover::after {
-    height:  100%;
+/* =====================================================
+   NAVBAR
+===================================================== */
+
+.portfolio-navbar {
+    background: rgba(217, 249, 157, 0.95);
+
+    backdrop-filter: blur(8px);
 }
 
-.about_div{
-  margin-top:0px;
-  margin-bottom: 20px;
-  font-size:50px; font-weight: 600;
-font-family: Inter, sans-serif;
-
-background-color: lightgreen;
-
-color: white;
-opacity: 95%;
-
-}
-.experience_div{
-  background-color: lightgreen; 
-  font-family: 'Popping'; margin-top: 50px; 
-   opacity: 95% ;
-   font-weight: 700;
-   font-size: 35px;
-   margin :auto ;
-   color:rgb(1, 2, 1);
-
-
-}
-.experience_div h1{
-  color: green;
+.portfolio-navbar .navbar-brand {
+    color: var(--dark-green);
 }
 
-.project_div{
-  background-color: lightgreen; 
-   font-family: 'Poppins'; 
-   opacity: 95% ;
-   font-weight: 700;
-   font-size: 35px;
-   
-   color:rgb(1, 2, 1);
+.portfolio-navbar .nav-link {
+    color: var(--dark-green);
 
+    font-weight: 600;
 }
-.project_div ul{
-  color: black;
+
+.portfolio-navbar .nav-link:hover {
+    color: var(--green);
 }
-.project_div h2{
- color: green;
-}
-.navbar{
-  color: green;
-}
-.experience_div h1{
-  font-size: 100px;
-  font-family: 'Inter', sans-serif;
-   color: green;
 
 
+/* =====================================================
+   GENERAL SECTIONS
+===================================================== */
+
+.section-box {
+    padding: 3rem;
+
+    background: var(--section-green);
+
+    border-radius: 1rem;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
 }
-.card-text{
-    opacity: 100%;
+
+.section-title {
+    margin-bottom: 3rem;
+
+    text-align: center;
+
+    color: var(--dark-green);
+
+    font-weight: 800;
+}
+
+
+/* =====================================================
+   TEXT
+===================================================== */
+
+.text-green {
+    color: var(--dark-green) !important;
+}
+
+
+/* =====================================================
+   ABOUT
+===================================================== */
+
+.profile-image {
+    max-width: 280px;
+}
+
+
+/* =====================================================
+   EXPERIENCE
+===================================================== */
+
+.experience-slide {
+    min-height: 280px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+    padding: 3rem;
+}
+
+.experience-slide h3 {
+    color: var(--dark-green);
+
     font-weight: 700;
-     font-family: 'Poppins';
-}
-.card:hover{
-  transform: scale(1.1);
-  opacity: 100%;
-
-
-}
-.card{
-    opacity: 100%;
-  background-color: lightgreen;
-  color: black;
-  
-    transform:3s ease;
-}
-.card-body{
-    opacity: 100%;
-     background-color: lightgreen;
- background-size: cover;
- color: green;
-  transition: all 0.3s;
-  ;
-
-}
-.container-fluid{
-  color: black;
-}
-.container-fluid h1{
-  color: green;
 }
 
-.about_div h1{
-  
-  color: green;
-}
-
-.customer_tech_div h1 {
-  color: green;
-}
-.customer_tech_div p{
-  color: black;
-}
-.customer_tech_div h2{
-  color: black;
-
-}
-.customer_tech_div h2:hover{
-color: green;
-}
-.experience_div h2:hover{
-  color: green;
-}
-  
-
-
-.online_customer_advisor{
-  color: black;
-}
-.online_customer_advisor h1{
- color:green;
-
-}
-.online_customer_advisor h2{
-  color:black
-}
-.online_customer_advisor h2:hover{
-  color: greenyellow;
-}
-
-
-.what_i_can_do_div{
-  background-color: lightgreen;
-  color: black;
-  font-size: 35px;
-
-   font-family: 'Poppins';
-
-}
-.what_i_can_do_div h1{
-color: darkgreen;
-font-weight: 700;
-font-size: 1000px;
- font-family: 'Poppins';
-}
-.header{
-  background-color: lightgreen;
-  color: darkgreen;
-}
-.header:hover{
-  background: none;
-}
-
-
-.c-item{
-height: 300px;
-
-width: 100%;
-}
-.c-img{
-
-  max-width: 100%;
-
-  object-fit: contain;
-  flex: 1 0 auto;
-
-}
-.junior_developer_div,
-.customer_tech_div,
-.online_customer_advisor {
+.experience-details {
     display: none;
+
+    padding: 2rem;
+
+    background: rgba(255, 255, 255, 0.4);
+
+    border-radius: 0.75rem;
 }
 
-.visible {
+.experience-details.active {
     display: block;
 }
-.visible{
-  display:block;
+
+
+/* =====================================================
+   PROJECTS
+===================================================== */
+
+.project-card {
+    border: none;
+
+    border-radius: 1rem;
+
+    background: rgba(255, 255, 255, 0.55);
 }
 
-.carousel-item {
-  background-color: lightgreen;
-}
-.experience_div{
-background-color: lightgreen;
-}
-.extra_div{
-background-color: lightgreen;
+.project-card h3 {
+    font-weight: 700;
 }
 
-.footer{
-  background-color: lightgreen;
-  width: 100%;
-}
-.footer:hover{
-  background-color: transparent;
-}
-.hidden{
-  display: none;
+
+/* =====================================================
+   SKILLS
+===================================================== */
+
+.skill-card {
+    border: none;
+
+    border-radius: 1rem;
+
+    background: rgba(255, 255, 255, 0.55);
+
+    cursor: pointer;
+
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
 }
 
+.skill-card:hover {
+    transform: translateY(-5px);
+
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+}
+
+.skill-card h3 {
+    color: var(--dark-green);
+
+    font-size: 1.35rem;
+
+    font-weight: 700;
+}
+
+
+/* =====================================================
+   EXTRA
+===================================================== */
+
+#extra .card {
+    border: none;
+
+    border-radius: 1rem;
+
+    background: rgba(255, 255, 255, 0.55);
+}
+
+
+/* =====================================================
+   FOOTER
+===================================================== */
+
+.footer {
+    margin-top: 3rem;
+
+    background: rgba(217, 249, 157, 0.95);
+
+    color: var(--dark-green);
+
+    font-weight: 600;
+}
+
+
+/* =====================================================
+   MOBILE
+===================================================== */
+
+@media (max-width: 768px) {
+
+    .section-box {
+        padding: 1.5rem;
+    }
+
+    .experience-slide {
+        min-height: 240px;
+
+        padding: 2rem;
+    }
+
+    .profile-image {
+        max-width: 200px;
+    }
+
+}
